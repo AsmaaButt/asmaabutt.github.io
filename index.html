@@ -1,19 +1,74 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>My First Website</title>
-    <style>
-      body {
-        background-color: lightblue;
-        font-family: Arial, sans-serif;
-        text-align: center;
-        padding-top: 50px;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Hello!</h1>
-    <p>My website is live on Github Pages!</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funky Code Playground 🐔</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="funky-header">
+        <nav class="funky-nav">
+            <div class="logo">
+                <span class="chicken-emoji">🐔</span>
+                <h1>Funky Code Playground</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="playground.html" class="special-link">HTML Playground</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2 class="funky-title">Welcome to the Funkiest Corner of the Web! 🌈</h2>
+                <p class="hero-description">Where retro vibes meet modern code! Explore our colorful world and try your hand at HTML coding in our interactive playground.</p>
+                <div class="cta-buttons">
+                    <a href="playground.html" class="cta-primary">Start Coding 💻</a>
+                    <a href="gallery.html" class="cta-secondary">Explore Gallery 🎨</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-shapes">
+                    <div class="shape circle"></div>
+                    <div class="shape triangle"></div>
+                    <div class="shape square"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <h3>What Makes Us Funky?</h3>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h4>Retro Design</h4>
+                    <p>Vibrant colors and funky aesthetics that'll make your eyes dance!</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💻</div>
+                    <h4>HTML Playground</h4>
+                    <p>Write, test, and see your HTML code come to life instantly!</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h4>Modern Tech</h4>
+                    <p>Built with the latest web technologies for a smooth experience!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="funky-footer">
+        <p>&copy; 2025 Funky Code Playground. Keep it groovy! ✨</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
